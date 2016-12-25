@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Niconne|Nothing+You+Could+Do');
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+h1{
+	text-align: center;
+    color: seagreen;
+    margin: 22px;
+    font-family: cursive;
+    text-transform: uppercase;
+
+}
+
+p{
+	padding: 5px;
+    font-size: 17px;
+    text-align: justify;
+    color: darkcyan;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+span{
+	color: darkcyan;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+ul{
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+	display:inline-block;
+	margin: 0 2px;
+	border-bottom: 2px solid #4298B5;
+	
+}
+
+ul li a{
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    padding: 16px 59px;
+    transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	display: block;
+
+}
+
+.wrapper{
+	max-width:1200px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+.header{
+	max-width: 100%;
+	overflow: hidden;
+	background: #ADC4CC;
+	opacity: 0.5;
+}
+
+.header ul li a:hover{
+	background: #4298B5;
+	transition:all .5s ease;
+	color:white;
+}
+
+.content{
+	width: 100%;
+}
+
+.rightbar{
+	overflow: hidden;
+	width: 55%;
+}
+
+.sidebar{
+	float: left;
+	box-sizing: border-box;
+	width:45%;
+	background: seagreen;
+	overflow: hidden;
+
+}
+
+.main-content{
+	box-sizing: border-box;
+	float:right;
+	background: #DAEAF0;
+	width: 100%;
+
+}
+
+.extra-content{
+	float: right;
+	background: #E4F9DE;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+}
+
+.extra-content p{
+	padding: 9px 10px;
+    margin: 3px;
+}
+
+.footer{
+	width: 100%;
+	overflow: hidden;
+	background: #F0F0F3;
+}
+
+.footer-left{
+	float: left;
+	width: 50%;
+}
+
+.footer-right{
+
+    float: left;
+    width: 50%;
+   
+}
+
+.footer-right li{
+	border:0px;
+	padding: 0px 8px;
+	margin-top: 10px;
+}
+.footer-right a{
+	text-decoration: none;
+	color:black;
+    transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	padding: 0px 4px;
+}
+
+.footer-right a:hover{
+	background: #C5DDDD;
+	color:white;
+	transition:all .5s ease;
+}
+
+.footer-right ul{
+	padding-left: 50%;
+}
